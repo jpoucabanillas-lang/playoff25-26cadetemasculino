@@ -196,6 +196,7 @@
     background-position: center 20%;
     background-repeat: no-repeat;
     opacity:.85;
+    filter: hue-rotate(220deg) saturate(1.2);
   }
   .pcard.has-photo.gutierrez .ph{
     background-image: url('assets/gutierrez-card.png?v=2');
@@ -215,6 +216,56 @@
   .pcard.has-photo.zilberman .ph{
     background-image: url('assets/zilberman-card.png');
     background-position: center 20%;
+    background-size: cover;
+  }
+  .pcard.has-photo.baron .ph{
+    background-image: url('assets/baron-card.png?v=2');
+    background-position: center 5%;
+    background-size: cover;
+  }
+  .pcard.has-photo.mmartinez .ph{
+    background-image: url('assets/mmartinez-card.png');
+    background-position: center 10%;
+    background-size: cover;
+  }
+  .pcard.has-photo.chavarria .ph{
+    background-image: url('assets/chavarria-card.png');
+    background-position: center 10%;
+    background-size: cover;
+  }
+  .pcard.has-photo.psanchez .ph{
+    background-image: url('assets/psanchez-card.png');
+    background-position: center 5%;
+    background-size: cover;
+  }
+  .pcard.has-photo.coachj .ph{
+    background-image: url('assets/coachj-card.png');
+    background-position: center 5%;
+    background-size: cover;
+  }
+  .pcard.has-photo.coachp .ph{
+    background-image: url('assets/coachp-card.png');
+    background-position: center 5%;
+    background-size: cover;
+  }
+  .pcard.has-photo.juarez .ph{
+    background-image: url('assets/juarez-card.png');
+    background-position: center 10%;
+    background-size: cover;
+  }
+  .pcard.has-photo.dapena .ph{
+    background-image: url('assets/dapena-card.png');
+    background-position: center 10%;
+    background-size: cover;
+  }
+  .pcard.has-photo.agonzalez .ph{
+    background-image: url('assets/agonzalez-card.png');
+    background-position: center 10%;
+    background-size: cover;
+  }
+  .pcard.has-photo.ballespin .ph{
+    background-image: url('assets/ballespin-card.png');
+    background-position: center 10%;
     background-size: cover;
   }
   .pcard.has-photo::after{
@@ -394,7 +445,7 @@
     </button>
     <div class="nav-links" id="navLinks">
       <a href="#partido">Partido</a>
-      <a href="#jugadores">Rooster 5</a>
+      <a href="#jugadores">CB Alcobendas Team</a>
       <a href="#pabellon">Pabellón</a>
       <a href="#ver">Ver en directo</a>
     </div>
@@ -518,82 +569,160 @@
   </div>
 </header>
 
-<!-- Jugadores -->
+<!-- Team CB Alcobendas -->
 <section class="sec" id="jugadores">
   <div class="sec-head">
     <div class="sec-num">// 02</div>
-    <h2 class="sec-title">Rooster 5 CB Alcobendas</h2>
-    <div class="sec-sub">05 · Jugadores clave · Alcobendas</div>
+    <h2 class="sec-title">Team CB Alcobendas</h2>
+    <div class="sec-sub">Jugadores · Cuerpo técnico</div>
   </div>
-  <div class="players">
+  <div class="players" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr))">
     <div class="pcard away has-photo">
       <div class="ph"></div>
-      <div class="phtag">[retrato jugador · alcobendas]</div>
       <div class="num">16</div>
       <div class="info">
         <div class="name">J.R. Pou</div>
         <div class="pos">Escolta · 1.87 m · 16 años</div>
-        <div class="pstats">
-          <div class="pstat"><b>13</b><span>PTS</span></div>
-          <div class="pstat"><b>7</b><span>AST</span></div>
-          <div class="pstat"><b>32%</b><span>TL</span></div>
-        </div>
+        <div class="pstats"><div class="pstat"><b>13</b><span>PTS</span></div><div class="pstat"><b>7</b><span>AST</span></div><div class="pstat"><b>32%</b><span>TL</span></div></div>
       </div>
     </div>
     <div class="pcard away has-photo gutierrez">
       <div class="ph"></div>
-      <div class="phtag">[retrato jugador · alcobendas]</div>
       <div class="num">14</div>
       <div class="info">
         <div class="name">D. Gutiérrez</div>
         <div class="pos">Base · 1.88 m · 16 años</div>
-        <div class="pstats">
-          <div class="pstat"><b>11</b><span>PTS</span></div>
-          <div class="pstat"><b>4</b><span>AST</span></div>
-          <div class="pstat"><b>2</b><span>ROB</span></div>
-        </div>
+        <div class="pstats"><div class="pstat"><b>11</b><span>PTS</span></div><div class="pstat"><b>4</b><span>AST</span></div><div class="pstat"><b>2</b><span>ROB</span></div></div>
       </div>
     </div>
     <div class="pcard away has-photo martinez">
       <div class="ph"></div>
-      <div class="phtag">[retrato jugador · alcobendas]</div>
       <div class="num">11</div>
       <div class="info">
         <div class="name">G. Martínez</div>
         <div class="pos">Escolta · 1.85 m · 16 años</div>
-        <div class="pstats">
-          <div class="pstat"><b>9</b><span>PTS</span></div>
-          <div class="pstat"><b>7</b><span>AST</span></div>
-          <div class="pstat"><b>4</b><span>REB</span></div>
-        </div>
+        <div class="pstats"><div class="pstat"><b>9</b><span>PTS</span></div><div class="pstat"><b>7</b><span>AST</span></div><div class="pstat"><b>4</b><span>REB</span></div></div>
       </div>
     </div>
     <div class="pcard away has-photo merino">
       <div class="ph"></div>
-      <div class="phtag">[retrato jugador · alcobendas]</div>
       <div class="num">30</div>
       <div class="info">
         <div class="name">J. Merino</div>
         <div class="pos">Escolta · Alcobendas</div>
-        <div class="pstats">
-          <div class="pstat"><b>5</b><span>PTS</span></div>
-          <div class="pstat"><b>7</b><span>REB</span></div>
-          <div class="pstat"><b>4</b><span>AST</span></div>
-        </div>
+        <div class="pstats"><div class="pstat"><b>5</b><span>PTS</span></div><div class="pstat"><b>7</b><span>REB</span></div><div class="pstat"><b>4</b><span>AST</span></div></div>
       </div>
     </div>
     <div class="pcard away has-photo zilberman">
       <div class="ph"></div>
-      <div class="phtag">[retrato jugador · alcobendas]</div>
       <div class="num">09</div>
       <div class="info">
         <div class="name">J. Zilberman</div>
         <div class="pos">Pívot · 1.90 m · 15 años</div>
-        <div class="pstats">
-          <div class="pstat"><b>14</b><span>PTS</span></div>
-          <div class="pstat"><b>8</b><span>REB</span></div>
-          <div class="pstat"><b>3</b><span>AST</span></div>
-        </div>
+        <div class="pstats"><div class="pstat"><b>14</b><span>PTS</span></div><div class="pstat"><b>8</b><span>REB</span></div><div class="pstat"><b>3</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo juarez">
+      <div class="ph"></div>
+      <div class="num">08</div>
+      <div class="info">
+        <div class="name">L. Juárez</div>
+        <div class="pos">Base · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>15</b><span>PTS</span></div><div class="pstat"><b>5</b><span>REB</span></div><div class="pstat"><b>12</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo dapena">
+      <div class="ph"></div>
+      <div class="num">11</div>
+      <div class="info">
+        <div class="name">D. Dapena</div>
+        <div class="pos">Base · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>7</b><span>PTS</span></div><div class="pstat"><b>3</b><span>REB</span></div><div class="pstat"><b>6</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo mmartinez">
+      <div class="ph"></div>
+      <div class="num">07</div>
+      <div class="info">
+        <div class="name">M. Martínez</div>
+        <div class="pos">Escolta · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>4</b><span>PTS</span></div><div class="pstat"><b>4</b><span>REB</span></div><div class="pstat"><b>5</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo baron">
+      <div class="ph"></div>
+      <div class="num">36</div>
+      <div class="info">
+        <div class="name">R. Barón</div>
+        <div class="pos">Base · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>4</b><span>PTS</span></div><div class="pstat"><b>2</b><span>REB</span></div><div class="pstat"><b>7</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo psanchez">
+      <div class="ph"></div>
+      <div class="num">06</div>
+      <div class="info">
+        <div class="name">P. Sánchez</div>
+        <div class="pos">Pívot · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>12</b><span>PTS</span></div><div class="pstat"><b>9</b><span>REB</span></div><div class="pstat"><b>4</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo chavarria">
+      <div class="ph"></div>
+      <div class="num">55</div>
+      <div class="info">
+        <div class="name">E. Chavarría</div>
+        <div class="pos">Pívot · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>9</b><span>PTS</span></div><div class="pstat"><b>9</b><span>REB</span></div><div class="pstat"><b>4</b><span>AST</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo agonzalez">
+      <div class="ph"></div>
+      <div class="num">23</div>
+      <div class="info">
+        <div class="name">A. González</div>
+        <div class="pos">Pívot · Alcobendas</div>
+        <div class="pstats"><div class="pstat"><b>2</b><span>PTS</span></div><div class="pstat"><b>3</b><span>REB</span></div><div class="pstat"><b>2</b><span>AST</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Coach Team -->
+<section class="sec" id="coaches">
+  <div class="sec-head">
+    <div class="sec-num">// 03</div>
+    <h2 class="sec-title">Cuerpo Técnico CB Alcobendas</h2>
+    <div class="sec-sub">Head Coach · Associate Coach · Technical Assist</div>
+  </div>
+  <div class="players" style="grid-template-columns:repeat(3,1fr);max-width:900px">
+    <div class="pcard away has-photo coachp">
+      <div class="ph"></div>
+      <div class="num" style="font-size:42px;color:var(--away)">HC</div>
+      <div class="info">
+        <div class="name">P. Gutiérrez</div>
+        <div class="pos" style="color:var(--away-hi);font-family:'Oswald';text-transform:uppercase;letter-spacing:.1em;font-size:12px">Head Coach</div>
+        <div class="pstats" style="border-top:1px solid rgba(255,255,255,.08);padding-top:12px;margin-top:14px"><div class="pstat"><b style="font-size:14px;font-family:'Inter';font-weight:600">CB Alcobendas</b><span>Club</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo coachj">
+      <div class="ph"></div>
+      <div class="num" style="font-size:42px;color:var(--away)">AC</div>
+      <div class="info">
+        <div class="name">J. —</div>
+        <div class="pos" style="color:var(--away-hi);font-family:'Oswald';text-transform:uppercase;letter-spacing:.1em;font-size:12px">Associate Coach</div>
+        <div class="pstats" style="border-top:1px solid rgba(255,255,255,.08);padding-top:12px;margin-top:14px"><div class="pstat"><b style="font-size:14px;font-family:'Inter';font-weight:600">CB Alcobendas</b><span>Club</span></div></div>
+      </div>
+    </div>
+    <div class="pcard away has-photo ballespin">
+      <div class="ph"></div>
+      <div class="num" style="font-size:42px;color:var(--away)">TA</div>
+      <div class="info">
+        <div class="name">P. Ballespín</div>
+        <div class="pos" style="color:var(--away-hi);font-family:'Oswald';text-transform:uppercase;letter-spacing:.1em;font-size:12px">Technical Assist</div>
+        <div class="pstats" style="border-top:1px solid rgba(255,255,255,.08);padding-top:12px;margin-top:14px"><div class="pstat"><b style="font-size:14px;font-family:'Inter';font-weight:600">CB Alcobendas</b><span>Club</span></div></div>
       </div>
     </div>
   </div>
